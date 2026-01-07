@@ -1,5 +1,14 @@
 # vault-consul
 
+
+### vault
+```
+vault operator init
+vault operator unseal
+
+vault status
+consul members
+```
 ### removal 
 ```
 systemctl stop vault consul
